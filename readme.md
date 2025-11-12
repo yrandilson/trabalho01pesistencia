@@ -53,7 +53,7 @@ O cliente gera 35 produtos automaticamente e testa todas as rotas.
 ## 📁 Estrutura
 
 ```
-├── api_comentada.py       # Servidor FastAPI
-├── cliente_comentado.py   # Testes automáticos
+├── api.py       # Servidor FastAPI
+├── cliente.py   # Testes automáticos
 └── db.csv                 # Banco de dados (auto-gerado)
 ```
