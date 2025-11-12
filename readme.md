@@ -19,12 +19,12 @@ pip install fastapi uvicorn pandas httpx
 
 **Terminal 1 - Servidor:**
 ```bash
-uvicorn api_comentada:app --reload
+uvicorn api:app --reload
 ```
 
 **Terminal 2 - Testes:**
 ```bash
-python cliente_comentado.py
+python cliente.py
 ```
 
 ## 📋 Rotas
